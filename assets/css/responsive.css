@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1200px) {
+.banner-section .carousel-item h1 {
+    font-size: 56px;
+    line-height: 62px;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 12.32px;
+    line-height: 18px;
+}
+}
+@media only screen and (max-width: 1100px) {
+.ashik-card {
+    --bs-gutter-x: 0.5rem;
+    --bs-gutter-y: 0;
+    flex-wrap: wrap-reverse;
+}
+
+}
+
+@media only screen and (max-width:992px) {
+.navbar-nav::before {
+	display:none;
+}
+.banner-section .carousel-item h1 {
+    font-size: 44px;
+    line-height: 50px;
+}
+	
+}
+
+@media only screen and (max-width:768px) {
+	.banner-section .carousel-item h1 {
+		font-size: 29px;
+		line-height: 35px;
+}
+}
+
+@media only screen and (max-width:500px) {
+	.banner-section .carousel-item h1 {
+    font-size: 18px;
+    line-height: 24px;
+}
+.ashik-card .heading2 h2 {
+    font-size: 41px;
+    line-height:47px;
+}
+}

@@ -1,0 +1,226 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+/*=====global=============*/
+h1{
+	 font-family: 'Playfair Display', serif;
+	 font-size:48.02px;
+	 line-height:39.94px;
+	 font-weight:400;
+}
+.navbar {
+    padding-top: 1.5rem;
+}
+.navbar-light .navbar-nav .nav-link {
+	font-family: 'Poppins', sans-serif; 
+	font-size:14.32px;
+	font-weight:600;
+	line-height:19px;
+	color:#ffffff;
+	text-transform: uppercase;
+	padding: 0px 15px 0 0px;
+    margin: 0px 0 0 12px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:red;
+}
+.dropdown-menu.show {
+    display: flex;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -80px;
+    margin-top: 1.125rem;
+}
+.dropdown-menu {
+    background-color:transparent;
+	
+  
+}
+.dropdown-item {
+	font-family: 'Poppins', sans-serif; 
+	font-size:14.32px;
+    font-weight: 400;
+    color: #ffffff;
+	text-transform: uppercase;
+	transition:0.5s;
+}
+.dropdown-item:hover{
+	color:red;
+	background-color:transparent;
+	
+}
+.navbar-nav{
+	position:relative;
+}
+.navbar-nav::before {
+    position: absolute;
+    content: "";
+    border: 1px solid #fff;
+    background: #fff;
+    width:120%;
+    bottom: -19px;
+    left: -30px;
+}
+
+/*================================banner-section=========================*/
+.carousel-item {
+  background: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+.banner-section .carousel-item h1 {
+    font-size: 65px;
+    color: #fff;
+    line-height: 71px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    text-align: center;
+}
+.banner-section .carousel-item p {
+  font-size: 24px;
+  color: #fff;
+  line-height: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  word-spacing: 8px;
+  letter-spacing: 1px;
+  position: relative;
+}
+.banner-section .carousel-item p::after{
+ position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #fff;
+    top: 50%;
+    transform: translatey(-50%);
+    right: -2px;
+}
+.banner-section .carousel-item p::before{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #fff;
+    top: 50%;
+    transform: translatey(-50%);
+    left: -2px;
+}
+.manubar-section {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+
+}
+.navbar-brand {
+  max-width: 300px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../img/arrow-left.png);
+}
+.carousel-control-next-icon {
+  background-image: url("../img/arrow-right.png");
+}
+/*========================================about-section=======================*/
+.container-1{
+	max-width:1000px;
+    width: 100%;
+    box-sizing: border-box;
+   
+    margin: 0 auto;
+}
+.pic {
+	position:relative;
+}
+.pic::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background:#8e7037;
+    top: 78%;
+    transform: translatey(-50%);
+    right: 52%;
+}
+.pic::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #8e7037;
+    top: 78%;
+    transform: translatey(-50%);
+    left: 52%;
+}
+.content-1 p{
+	max-width:849px;
+	margin: 0 auto;
+}
+.btn-outline-secondary {
+     color: #8e7037; 
+    border-color:#8e7037;
+}
+.btn{
+	color:#8e7037;
+}
+.row {
+	  row-gap:10px;
+}
+
+ /* ===========================================================================card_section============================================================= */
+
+.ashik-card .heading1 h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+	color:#584217;
+}
+.ashik-card .heading2 h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    line-height: 54px;
+    font-weight: 400;
+	color:#232323;
+}
+.ashik-card .pra p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 300;
+	color:#333333;
+	/*min-width: 576px*/
+}
+
+/*===================================================gallery-section======================*/
+.content {
+	background-color:#8e7037;
+}
+.gallery-section .row {
+    --bs-gutter-x: 0.1rem;
+    --bs-gutter-y: 0.rm;
+}
+.gallery-section img, svg {
+     vertical-align: text-top; 
+}
+/*============================================fotter-section=======================*/
+.footer-section {
+	background:#232323;
+	padding-bottom:30px ;
+	
+}
+
+.row {
+    --bs-gutter-x: 0.5rem;
+    --bs-gutter-y: 0;
+}
+a {
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
